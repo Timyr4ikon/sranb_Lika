@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lika228</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="add-dish">
+        <div class="add-dish__close">
+            <a href="#" class="add-dish__return"></a>
+            <h2 class="add-dish__title">Новая категория</h2>
+        </div>
+            <form action="" class="add-dish__form">
+            <div class="input-container">
+                <label for="" class="add-dish__label">Название
+                    <input type="text" class="add-input input-name" name="category-name" required data-action="name" placeholder="Например, «Холодные напитки» или «Салаты»*" autofocus>
+                </label>
+                <label for="" class="add-dish__label" >Фотография
+                    <input type="text" class="add-input input-photo" name="category-img" data-action="photo" placeholder="Ссылка на фотографию">
+                </label>
+            </div>
+
+                <button class="add-dish__btn" data-action="add">Сохранить</button>
+            </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
